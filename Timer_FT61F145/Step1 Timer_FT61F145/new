@@ -1,0 +1,11 @@
+#ifndef		COMMON_H
+#define		COMMON_H
+#include "main.h"
+
+void timer2_Init(void);
+void delay_us(unsigned char Time);
+void delay_ms(unsigned int Time);
+
+#endif
+
+

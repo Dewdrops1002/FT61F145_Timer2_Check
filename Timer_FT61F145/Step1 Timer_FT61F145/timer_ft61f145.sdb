@@ -1,0 +1,111 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC RSC14 RSC14E SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip FT61F14X ]
+[d frameptr 6 ]
+"62 C:\IDE3.0.8\data\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\IDE3.0.8\data\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"15 F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
+[v _ISR ISR `II(v  1 e 1 0 ]
+"57
+[v _main main `(v  1 e 1 0 ]
+"69
+[v _timer2_Init timer2_Init `(v  1 e 1 0 ]
+"85
+[v _hardwareConfig hardwareConfig `(v  1 e 1 0 ]
+"97 C:\IDE3.0.8\data\include\FT61F14X.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"106
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"123
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"134
+[v _PA0 PA0 `VEb  1 e 0 @96 ]
+"168
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"179
+[v _PB0 PB0 `VEb  1 e 0 @104 ]
+"180
+[v _PB1 PB1 `VEb  1 e 0 @105 ]
+"181
+[v _PB2 PB2 `VEb  1 e 0 @106 ]
+"213
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"262
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"289
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"316
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"353
+[v _CKOCON CKOCON `VEuc  1 e 1 @149 ]
+"475
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"506
+[v _PCKEN PCKEN `VEuc  1 e 1 @154 ]
+"821
+[v _PSRC0 PSRC0 `VEuc  1 e 1 @282 ]
+"826
+[v _PSRC1 PSRC1 `VEuc  1 e 1 @283 ]
+"869
+[v _WPUA WPUA `VEuc  1 e 1 @396 ]
+"873
+[v _WPUB WPUB `VEuc  1 e 1 @397 ]
+"877
+[v _WPUC WPUC `VEuc  1 e 1 @398 ]
+"966
+[v _ANSELA ANSELA `VEuc  1 e 1 @407 ]
+"1001
+[v _PSINK0 PSINK0 `VEuc  1 e 1 @410 ]
+"1005
+[v _PSINK1 PSINK1 `VEuc  1 e 1 @411 ]
+"1008
+[v _PSINK2 PSINK2 `VEuc  1 e 1 @412 ]
+"1043
+[v _WPDA WPDA `VEuc  1 e 1 @524 ]
+"1070
+[v _WPDB WPDB `VEuc  1 e 1 @525 ]
+"1096
+[v _WPDC WPDC `VEuc  1 e 1 @526 ]
+"1745
+[v _TIM2CR1 TIM2CR1 `VEuc  1 e 1 @780 ]
+"1766
+[v _TIM2IER TIM2IER `VEuc  1 e 1 @781 ]
+"1768
+[v _T2UIE T2UIE `VEb  1 e 0 @6248 ]
+"1787
+[v _T2UIF T2UIF `VEb  1 e 0 @6256 ]
+"2058
+[v _TIM2ARRH TIM2ARRH `VEuc  1 e 1 @793 ]
+"2062
+[v _TIM2ARRL TIM2ARRL `VEuc  1 e 1 @794 ]
+"2082
+[v _TCKSRC TCKSRC `VEuc  1 e 1 @799 ]
+"11 F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
+[v _n50uSCount n50uSCount `uc  1 e 1 0 ]
+"12
+[v _mS mS `ui  1 e 2 0 ]
+"13
+[v _sec sec `uc  1 e 1 0 ]
+"57
+[v _main main `(v  1 e 1 0 ]
+{
+"67
+} 0
+"69
+[v _timer2_Init timer2_Init `(v  1 e 1 0 ]
+{
+"83
+} 0
+"85
+[v _hardwareConfig hardwareConfig `(v  1 e 1 0 ]
+{
+"115
+} 0
+"15
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"56
+} 0
