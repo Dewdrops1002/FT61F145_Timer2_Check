@@ -11,13 +11,13 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
-reset_vec CODE 0 0 0 2 2
-end_init CODE 0 30 30 2 2
 $timer_ft61f145.obj
 cinit CODE 0 32 32 49 2
 intentry CODE 0 4 4 2C 2
 bssCOMMON COMMON 1 70 70 4 1
+$C:\Users\Sunday\AppData\Local\Temp\sceg.obj
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 30 30 2 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -100,71 +100,71 @@ STRING 7B-FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $timer_ft61f145.obj
-32 cinit CODE >116:C:\Users\Sunday\AppData\Local\Temp\s2dg.
-32 cinit CODE >119:C:\Users\Sunday\AppData\Local\Temp\s2dg.
-32 cinit CODE >137:C:\Users\Sunday\AppData\Local\Temp\s2dg.
-33 cinit CODE >138:C:\Users\Sunday\AppData\Local\Temp\s2dg.
-34 cinit CODE >139:C:\Users\Sunday\AppData\Local\Temp\s2dg.
-35 cinit CODE >140:C:\Users\Sunday\AppData\Local\Temp\s2dg.
-36 cinit CODE >146:C:\Users\Sunday\AppData\Local\Temp\s2dg.
-36 cinit CODE >148:C:\Users\Sunday\AppData\Local\Temp\s2dg.
-37 cinit CODE >149:C:\Users\Sunday\AppData\Local\Temp\s2dg.
-38 cinit CODE >150:C:\Users\Sunday\AppData\Local\Temp\s2dg.
-39 cinit CODE >57:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-39 cinit CODE >59:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-3B cinit CODE >60:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-3D cinit CODE >63:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-3E cinit CODE >85:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-3E cinit CODE >87:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-41 cinit CODE >88:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-43 cinit CODE >90:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-46 cinit CODE >91:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-49 cinit CODE >93:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-4C cinit CODE >94:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-4F cinit CODE >96:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-52 cinit CODE >97:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-55 cinit CODE >99:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-57 cinit CODE >100:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-58 cinit CODE >101:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-59 cinit CODE >103:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-5C cinit CODE >104:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-5E cinit CODE >105:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-60 cinit CODE >107:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-63 cinit CODE >108:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-64 cinit CODE >110:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-66 cinit CODE >111:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-67 cinit CODE >112:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-68 cinit CODE >114:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-69 cinit CODE >115:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-6A cinit CODE >69:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-6A cinit CODE >71:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-6C cinit CODE >72:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-6E cinit CODE >73:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-71 cinit CODE >75:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-73 cinit CODE >77:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-75 cinit CODE >79:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-77 cinit CODE >80:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-79 cinit CODE >82:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-7A cinit CODE >83:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-4 intentry CODE >15:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-6 intentry CODE >23:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-A intentry CODE >25:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-B intentry CODE >26:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-E intentry CODE >27:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-12 intentry CODE >29:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-13 intentry CODE >30:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-14 intentry CODE >34:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-16 intentry CODE >35:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-1D intentry CODE >37:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-20 intentry CODE >38:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-21 intentry CODE >41:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-23 intentry CODE >42:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-27 intentry CODE >44:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-28 intentry CODE >45:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-29 intentry CODE >48:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-2B intentry CODE >49:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-2C intentry CODE >52:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
-2E intentry CODE >56:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
+32 cinit CODE >116:C:\Users\Sunday\AppData\Local\Temp\sceg.
+32 cinit CODE >119:C:\Users\Sunday\AppData\Local\Temp\sceg.
+32 cinit CODE >137:C:\Users\Sunday\AppData\Local\Temp\sceg.
+33 cinit CODE >138:C:\Users\Sunday\AppData\Local\Temp\sceg.
+34 cinit CODE >139:C:\Users\Sunday\AppData\Local\Temp\sceg.
+35 cinit CODE >140:C:\Users\Sunday\AppData\Local\Temp\sceg.
+36 cinit CODE >146:C:\Users\Sunday\AppData\Local\Temp\sceg.
+36 cinit CODE >148:C:\Users\Sunday\AppData\Local\Temp\sceg.
+37 cinit CODE >149:C:\Users\Sunday\AppData\Local\Temp\sceg.
+38 cinit CODE >150:C:\Users\Sunday\AppData\Local\Temp\sceg.
+39 cinit CODE >57:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+39 cinit CODE >59:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+3B cinit CODE >60:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+3D cinit CODE >63:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+3E cinit CODE >85:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+3E cinit CODE >87:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+41 cinit CODE >88:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+43 cinit CODE >90:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+46 cinit CODE >91:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+49 cinit CODE >93:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+4C cinit CODE >94:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+4F cinit CODE >96:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+52 cinit CODE >97:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+55 cinit CODE >99:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+57 cinit CODE >100:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+58 cinit CODE >101:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+59 cinit CODE >103:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+5C cinit CODE >104:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+5E cinit CODE >105:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+60 cinit CODE >107:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+63 cinit CODE >108:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+64 cinit CODE >110:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+66 cinit CODE >111:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+67 cinit CODE >112:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+68 cinit CODE >114:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+69 cinit CODE >115:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+6A cinit CODE >69:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+6A cinit CODE >71:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+6C cinit CODE >72:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+6E cinit CODE >73:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+71 cinit CODE >75:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+73 cinit CODE >77:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+75 cinit CODE >79:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+77 cinit CODE >80:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+79 cinit CODE >82:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+7A cinit CODE >83:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+4 intentry CODE >15:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+6 intentry CODE >23:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+A intentry CODE >25:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+B intentry CODE >26:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+E intentry CODE >27:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+12 intentry CODE >29:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+13 intentry CODE >30:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+14 intentry CODE >34:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+16 intentry CODE >35:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+1D intentry CODE >37:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+20 intentry CODE >38:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+21 intentry CODE >41:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+23 intentry CODE >42:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+27 intentry CODE >44:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+28 intentry CODE >45:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+29 intentry CODE >48:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+2B intentry CODE >49:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+2C intentry CODE >52:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
+2E intentry CODE >56:F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -192,21 +192,21 @@ _WPDC 20E 0 ABS 0 - timer_ft61f145.obj
 _WPUA 18C 0 ABS 0 - timer_ft61f145.obj
 _WPUB 18D 0 ABS 0 - timer_ft61f145.obj
 _WPUC 18E 0 ABS 0 - timer_ft61f145.obj
-___sp 0 0 STACK 2 stack C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
+___sp 0 0 STACK 2 stack C:\Users\Sunday\AppData\Local\Temp\sceg.obj
 _main 72 0 CODE 0 cinit timer_ft61f145.obj
 btemp 7E 0 ABS 0 - timer_ft61f145.obj
-start 60 0 CODE 0 init C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
+start 60 0 CODE 0 init C:\Users\Sunday\AppData\Local\Temp\sceg.obj
 __size_of_main 0 0 ABS 0 - timer_ft61f145.obj
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
 _TIM2CR1 30C 0 ABS 0 - timer_ft61f145.obj
 _TIM2IER 30D 0 ABS 0 - timer_ft61f145.obj
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
-intlevel1 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
-intlevel2 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
-intlevel3 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
-intlevel4 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
-intlevel5 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
+intlevel0 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\sceg.obj
+intlevel1 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\sceg.obj
+intlevel2 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\sceg.obj
+intlevel3 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\sceg.obj
+intlevel4 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\sceg.obj
+intlevel5 0 0 ENTRY 0 functab C:\Users\Sunday\AppData\Local\Temp\sceg.obj
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 wtemp0 7E 0 ABS 0 - timer_ft61f145.obj
 __Hfunctab 0 0 ENTRY 0 functab -
@@ -226,7 +226,7 @@ _PSINK2 19C 0 ABS 0 - timer_ft61f145.obj
 _TIM2ARRH 319 0 ABS 0 - timer_ft61f145.obj
 _TIM2ARRL 31A 0 ABS 0 - timer_ft61f145.obj
 _TCKSRC 31F 0 ABS 0 - timer_ft61f145.obj
-___int_sp 0 0 STACK 2 stack C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
+___int_sp 0 0 STACK 2 stack C:\Users\Sunday\AppData\Local\Temp\sceg.obj
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -368,7 +368,7 @@ _sec 72 0 COMMON 1 bssCOMMON timer_ft61f145.obj
 _n50uSCount 73 0 COMMON 1 bssCOMMON timer_ft61f145.obj
 __end_of_ISR 60 0 CODE 0 intentry timer_ft61f145.obj
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Sunday\AppData\Local\Temp\sceg.obj
 __end_of_timer2_Init F6 0 CODE 0 cinit timer_ft61f145.obj
 __end_of_hardwareConfig D4 0 CODE 0 cinit timer_ft61f145.obj
 __Lbank10 0 0 BANK10 1 bank10 -
@@ -397,8 +397,8 @@ __pmaintext 72 0 CODE 0 cinit timer_ft61f145.obj
 __Lbigram 0 0 ABS 0 bigram -
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 0 config -
-stackhi 21EF 0 ABS 0 - C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
-stacklo 2000 0 ABS 0 - C:\Users\Sunday\AppData\Local\Temp\s2dg.obj
+stackhi 21EF 0 ABS 0 - C:\Users\Sunday\AppData\Local\Temp\sceg.obj
+stacklo 2000 0 ABS 0 - C:\Users\Sunday\AppData\Local\Temp\sceg.obj
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -

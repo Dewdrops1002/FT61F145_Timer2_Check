@@ -7,7 +7,7 @@
 [v ___ftpack __ftpack `(f  1 e 3 0 ]
 "86 C:\IDE3.0.8\data\sources\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 3 0 ]
-"15 F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
+"15 F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
 [v _ISR ISR `II(v  1 e 1 0 ]
 "57
 [v _main main `(v  1 e 1 0 ]
@@ -83,7 +83,7 @@
 [v _TIM2ARRL TIM2ARRL `VEuc  1 e 1 @794 ]
 "2082
 [v _TCKSRC TCKSRC `VEuc  1 e 1 @799 ]
-"11 F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\Timer_FT61F145\Timer_FT61F145.C
+"11 F:\Github\FanVinaWind Controller (Reorganize)\FT61F145-RB Timer Check\FT61F145_Timer2_Check\Timer_FT61F145\Step1 Timer_FT61F145\Timer_FT61F145.C
 [v _n50uSCount n50uSCount `uc  1 e 1 0 ]
 "12
 [v _mS mS `ui  1 e 2 0 ]

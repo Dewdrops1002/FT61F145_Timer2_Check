@@ -22,7 +22,7 @@ void interrupt ISR(void)
 	
 	if(T2UIE && T2UIF) //50uS               	
 	{
-		T2UIF = 1;
+		T2UIF = 1;//Clear flag
         OUT_SWG_PIN = !OUT_SWG_PIN;
 		if(n50uSCount < 20)	//20*50 = 1000 uS (1mS)
 		{
